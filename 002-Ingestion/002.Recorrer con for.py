@@ -1,6 +1,6 @@
 import os
 
-elementos = os.listdir("text")
+elementos = os.listdir("txt")
 
-for elementos in elementos:
-    print (elemento)
+for elemento in elementos:
+    print(elemento)

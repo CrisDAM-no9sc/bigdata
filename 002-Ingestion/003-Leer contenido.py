@@ -1,7 +1,8 @@
 import os
 
-elementos = os.listdir("text")
+elementos = os.listdir("txt")
 
-for elementos in elementos:
-    archivo = open("txt/"+elemento)
+for elemento in elementos:
+    archivo = open("txt/" + elemento)  
     print(archivo.read())
+    archivo.close()  
